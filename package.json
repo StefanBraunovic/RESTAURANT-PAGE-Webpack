@@ -1,0 +1,28 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanBraunovic/RESTAURANT-PAGE-Webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanBraunovic/RESTAURANT-PAGE-Webpack/issues"
+  },
+  "homepage": "https://github.com/StefanBraunovic/RESTAURANT-PAGE-Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.20"
+  }
+}
