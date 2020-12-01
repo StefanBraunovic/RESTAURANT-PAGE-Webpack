@@ -49,45 +49,25 @@ function loadMenu(){
    const foods=[
        createFood(
     'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
+    'magic stick',
+    '2$ per 100g',
+    'magic stick'
    ),   createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
+    'https://i.pinimg.com/564x/3b/84/c6/3b84c66c006ca43f182db733341b8437.jpg',
+    'lotus orb',
+    '1$ per 100g',
+    'lotus '
    ) ,
    createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
+    'https://i.imgur.com/XeUBRf4.jpeg',
+    'tango',
+    '3$ per 100g',
+    'tango'
    ), createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
-   ), createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
-   ), createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
-   ), createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
-   ), createFood(
-    'https://i.imgur.com/oSWPeIs.jpeg',
-    'magic stics',
-    '200 golds',
-    'magic stics'
+    'https://i.imgur.com/nqm1KS3.jpeg',
+    'wards',
+    '3$ per 100g',
+    'wards'
    )];       
     
    

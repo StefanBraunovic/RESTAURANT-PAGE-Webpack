@@ -19,6 +19,13 @@ function createBtn(id,text){
     return btn;
 }
 
+function znak(){
+    const logo = document.createElement('img')
+    logo.src="https://cdn.vox-cdn.com/thumbor/bEZqHrz04RspoMRVxOMIf_itwSM=/0x0:660x360/920x0/filters:focal(0x0:660x360):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/6645195/dota-2-logo.0.jpg";
+    const content = document.getElementById('content');
+    content.appendChild(logo)
+}
+
 
 function createNav(id){
     const nav = document.createElement('nav');
@@ -53,11 +60,16 @@ function createFooter(id,text){
 
 
 
+
+
 function loadPage(){
     const content = document.getElementById('content');
     
     const header = createHeader('header','Dota Food');
     content.appendChild(header);
+
+    const logo =znak();
+   
 
     const nav = createNav('nav');
     content.appendChild(nav);
