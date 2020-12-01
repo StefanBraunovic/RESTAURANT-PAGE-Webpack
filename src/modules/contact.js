@@ -17,7 +17,7 @@ function loadContact(){
     
     content.textContent="Test";
 
-   setBtnActive('menu');
+   setBtnActive('contact');
     
 }
 

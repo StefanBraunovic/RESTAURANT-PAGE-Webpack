@@ -5,3 +5,39 @@
 	font-size: 2vw;
 	padding: 20px;
 }
+
+.grid-lay {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	padding-top: 20px;
+}
+.food {
+	position: relative;
+
+	max-width: 100%;
+}
+
+.food img {
+	width: 100%;
+	height: auto;
+}
+
+.food:hover .description {
+	opacity: 1;
+}
+
+.description {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	color: white;
+	font-size: 20px;
+
+	text-align: center;
+}
